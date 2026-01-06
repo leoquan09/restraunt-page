@@ -1,7 +1,4 @@
-let container = document.getElementById('content');
-
-let homeContent = document.createElement('div');
-homeContent.innerHTML = 
+let content = 
     `
     
     <h1>Leo's linguinis</h1>
@@ -13,6 +10,4 @@ homeContent.innerHTML =
     
     `;
 
-container.appendChild(homeContent);
-
-export { homeContent };
+export default content
